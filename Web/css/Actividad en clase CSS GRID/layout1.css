@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(244, 169, 169);
+}
+
+.grid-container{
+    margin: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "header header header";
+    grid-auto-rows: minmax(150px, 1fr);
+    gap: 10px;
+}
+
+.grid-item{
+    padding: 10px;
+    border: 1px white solid;
+    background-color: rgb(255, 237, 148);
+    min-height: 0;
+}
+
+
+
