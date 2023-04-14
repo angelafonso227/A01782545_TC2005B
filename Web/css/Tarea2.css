@@ -1,0 +1,144 @@
+div {
+    margin: 15px;
+    padding: 10px
+}
+
+.title{
+    background-image: url("realmadrid.jpg");
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2px;
+    border-style: hidden solid;
+    border-width: 9px;
+    border-color: rgb(255, 148, 225);
+}
+
+.border {
+    color: rgb(121, 235, 216);
+    border: dotted;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(172, 148, 24);
+    border-width: 7px;
+}
+
+.borders{
+    background-image: url("water.jpg");
+    color: rgb(184, 75, 93);
+    border-bottom: 14px;
+    border-top: 2px;
+    border-right: 5px;
+    border-left: 8px;
+    border-style: solid dashed dotted groove;
+    border-color: rgb(178, 113, 238) rgb(142, 255, 249) rgb(195, 255, 160) rgb(114, 114, 114);
+}
+
+.radius{
+    border-radius: 6% 99% 3% 15%;
+    border-color: blueviolet;
+    border-width: 4px;
+    border-style: solid;
+    background-image: url("space.jpg");
+    color: red;
+}
+
+.backimage{
+    color: rgb(102, 0, 254);
+    background-image: url("desierto.jpg");
+}
+
+.color{
+    color:brown;
+    background-color: blanchedalmond;
+}
+
+.font{
+    color: rgb(121, 210, 92);
+    background-image: url(blacklines.jpg);
+}
+
+.fonte{
+    font:italic 20px "Fira Sans", serif;
+    color:rgb(148, 135, 14);
+    border-style: dotted;
+}
+
+.ffamily{
+    color:blue;
+    font-family: Verdana;
+    background-color: rgb(255, 183, 242);
+    margin: 70px;
+    padding: 60px;
+}
+
+.fsw{
+    font-style:oblique;
+    color: rgb(255, 241, 42);
+    background-image: url("fire.jpg");
+}
+
+.weight{
+    color: rgb(225, 193, 255);
+    font-weight:900
+}
+
+.wandh{
+    height: auto;
+    width: 123px;
+    background-image: url("tierra.jpg");
+    color:beige;
+
+}
+
+.list-style{
+    list-style:disc;
+    background-color: rgb(0, 0, 0);
+    color: rgb(170, 255, 127);
+    border-width: 6px;
+    border-style: groove;
+}
+
+.margin{
+    margin: 99px;
+    color: bisque;
+    background-color: rgb(39, 39, 69);
+}
+
+.padding{
+    padding: 10px 90px 15px 20px;
+    color:rgb(173, 1, 1);
+    background-image: url("colores.jpg");
+}
+
+.overflow{
+    overflow: scroll;
+    color: aquamarine;
+    height: 100px;
+    width: 123px;
+    background-color: rgb(255, 99, 255);
+    margin: 14px 200px;
+}
+
+.display{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 4px;
+    padding: 15em;
+    height: 10em;
+    background-color: rgb(50, 164, 94);
+}
+
+.position{
+    position:sticky;
+    height: 120px;
+    width: 200px;
+    background-color: blanchedalmond;
+}
+
+.filter{
+    background-color: rgb(151, 151, 202);
+}
+
+.filterimg{
+    filter:invert();
+}
