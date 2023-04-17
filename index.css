@@ -1,0 +1,22 @@
+*{
+    background-image: url("/A01782545_TC2005B/Web/css/Images/rmfon.jpg");
+    background-size:100%;
+    
+}
+
+h1{
+    color: rgb(188, 212, 234);
+}
+
+.links a{
+    color: azure;
+}
+
+.links{
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid blueviolet;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}

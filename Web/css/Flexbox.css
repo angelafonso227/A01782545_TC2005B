@@ -21,17 +21,17 @@ div {
 }
 
 #box4 {
-    flex: 1;
-    order: 3
+    flex: 4;
+    order: 3;
 }
 
 #box5 {
-    flex: 3;
-    order: 1
+    flex: 4;
+    order: 1;
 }
 
 #box5 p{
-    color: blue;
+    color: rgb(0, 0, 244);
 }
 
 #box6 {
