@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(40, 40, 40);
+}
+
+.grid-container{
+    padding: 30px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 25px;
+}
+
+.grid-item{
+    padding: 10px;
+}
+
+#one{
+    background-color: rgb(238, 68, 68);
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 4;
+}
+
+#two{
+    background-color: rgb(249, 114, 29);
+    grid-column: 7 / span 6;
+    grid-row: 1 / span 4;
+}
+
+#three{
+    background-color: rgb(246, 139, 69);
+    grid-column: 1 / span 4;
+    grid-row: 5 / span 4;
+}
+
+#four{
+    background-color: rgb(2, 135, 98);
+    grid-column: 5 / span 8;
+    grid-row: 5 / span 4;
+}
+
+#five{
+    background-color: rgb(6, 194, 125);
+    grid-column: 1 / span 12;
+    grid-row: 9 / span 2;
+}
