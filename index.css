@@ -1,11 +1,12 @@
 *{
     background-image: url("/A01782545_TC2005B/Web/css/Images/rmfon.jpg");
-    background-size:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
     
 }
 
 h1{
-    color: rgb(188, 212, 234);
+    color: rgb(212, 194, 1);
 }
 
 .links a{
