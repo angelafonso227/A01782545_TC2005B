@@ -19,7 +19,7 @@ public class HorizontalMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        move.x = Input.GetAxis("Horizontal");
+        move.x = Input.GetAxisRaw("Horizontal");
         if(transform.position.x < -limit && move.x < 0)
         {
             move.x = 0;
