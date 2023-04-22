@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    height: 100vh;
+}
+
+.header {
+    font-size: 25px;
+    display: grid;
+    grid-column: 1 / span 10;
+    background-color: rgb(18, 50, 90);
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    grid-column: 1 / span 5;
+    grid-row: 1;
+}
+
+.links {
+    grid-column: 10 / span 5;
+    grid-row: 1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main {
+    font-size: 33px;
+    display: grid;
+    grid-column: 1 / span 10;
+    grid-row: 2 / span 4;
+    background-color: rgb(154, 118, 0);
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+}
+
+.maintitle {
+    font-size: 50px;
+    grid-row: 1 /span 4;
+    margin: 50px;
+}
+
+.maintxt { 
+    font-size: 15px;
+    grid-row: 5 / span 4;
+    font-weight: bold;
+}
+
+.newsletter {
+    display: flex;
+    background-color: rgb(18, 50, 90);
+    grid-column: 1 / span 10;
+    grid-row: 6 / span 1;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    margin-top: 0em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+label {
+    cursor: default;
+    padding: 1px 3px;
+}
+
+input {
+    border-width: 3px;
+    border-style:outset;
+    border-color: gray;
+    border-image: initial;
+    margin: 0px;
+    font-size: 20px;
+    padding: 1px 5px;
+}
+
+.box {
+    margin-left: 20px;
+}
+
+.button {
+    background-color: rgb(154, 118, 0);
+    font-size: 20px;
+}
+
+
+.icons {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    grid-column: 1 / span 10;
+    grid-row: 7 / span 3;
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+img{
+    max-width: 130px;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+.imgtxt {
+    font-size: 22px;
+    font-weight: lighter;
+    color: black;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer {
+    display: grid;
+    background-color: rgb(18, 50, 90);
+    grid-column: 1 / span 10;
+    align-items: center;
+    text-align: center;
+}
