@@ -92,11 +92,13 @@ input {
     margin: 0px;
     font-size: 20px;
     padding: 1px 5px;
+    color: fieldtext;
+    background-color: field;
 }
 
 .box {
     margin-left: 20px;
-    color:black;
+    color: black;
 }
 
 .button {
