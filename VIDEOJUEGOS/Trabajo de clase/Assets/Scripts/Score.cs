@@ -26,6 +26,7 @@ public class Score : MonoBehaviour
     {
         points += 1;
         scoreText.text = "Score: " + points;
-        Instantiate(particles, transform.position, Quaternion.identity);
+        particles.Emit(20);
+        //Instantiate(particles, transform.position, Quaternion.identity);
     }
 }
