@@ -831,6 +831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitude: 2
   speed: 1
+  direction: {x: 4, y: 3}
 --- !u!1 &1673213095
 GameObject:
   m_ObjectHideFlags: 0
